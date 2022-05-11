@@ -1,0 +1,39 @@
+:root {
+    scroll-behavior: smooth;
+}
+
+#title {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 0.5rem;
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: #878268 solid 2px;
+}
+
+#content {
+    font-family: inherit;
+    width: fit-content;
+    padding-right: 1rem;
+    /*
+    This relates to the `#top-link-container { margin-top }` property and ensures that some
+    of the poem remains visible when the user scrolls to the bottom of the page.
+    */
+    margin-bottom: -10rem;
+}
+
+#top-link-container {
+    /* For Safari 12.1 and earlier */
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: -0.2rem;
+
+    margin-top: 94vh;
+    margin-left: min(29rem, calc(100vw - 6.2rem));
+}
+
+#top-link-container img {
+    width: 3rem;
+    height: 3rem;
+    opacity: 0.1;
+}
