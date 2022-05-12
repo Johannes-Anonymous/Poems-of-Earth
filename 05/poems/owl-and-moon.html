@@ -4,8 +4,51 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Poems of Earth | Owl And Moon</title>
-    <link href="../main.css" rel="stylesheet">
-    <link href="../poem.css" rel="stylesheet">
+    <link href="../common.css" rel="stylesheet">
+    <style>
+        #home-link {
+            margin-top: 0.5rem;
+        }
+
+        #title {
+            width: -moz-fit-content;
+            width: fit-content;
+            margin-top: 0.5rem;
+            font-size: 2.5rem;
+            font-variant: small-caps;
+            margin-bottom: 1rem;
+        }
+
+        #content {
+            font-family: inherit;
+            width: fit-content;
+            padding-right: 1rem;
+            /*
+            This relates to the `#top-link-container { margin-top }` property and ensures that some
+            of the poem remains visible when the user scrolls to the bottom of the page.
+            */
+            margin-bottom: -10rem;
+        }
+
+        #top-link-container {
+            /* For Safari 12.1 and earlier */
+            position: -webkit-sticky;
+            position: sticky;
+            bottom: 0;
+            margin-top: 110vh;
+        }
+
+        #top-link-container a {
+            position: absolute;
+            bottom: 0;
+            right: 1rem;
+        }
+
+        #top-link-container img {
+            width: 2.5rem;
+            opacity: 0.1;
+        }
+    </style>
 </head>
 <body>
     <div class="reading">
@@ -13,7 +56,7 @@
             <a class="text-subtle" href="../home.html">Home</a>
         </div>
         <main>
-            <h2 id="title" class="font-sans-serif text-subtle-secondary">Owl And Moon</h1>
+            <h2 id="title" class="font-sans-serif text-secondary">Owl And Moon</h1>
             <pre id="content">Familiar sun glances
     across deep summer sky,
     and rests gently
