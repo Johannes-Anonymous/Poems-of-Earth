@@ -26,13 +26,7 @@
         }
 
         nav li a {
-            /* TODO: Replace with a "utility" class (if possible and practical) */
-            color: #D9C66A;
-        }
-
-        nav li::marker {
-            /* TODO: Replace with a "utility" class (if possible and practical) */
-            color: #D9C66AAA;
+            line-height: 2.75rem;
         }
 
         #emblem-container {
@@ -47,6 +41,7 @@
 
         #divider {
             width: 100%;
+            /* TODO: Move this color to a central location */
             border-bottom: #878268 solid 2px;
             margin-bottom: 2.5rem;
         }
@@ -123,7 +118,7 @@ Scripture texts in this work are taken from the New American Bible © 1970 Confr
     <div id="emblem-container" class="fade-in">
         <img id="emblem" src="./emblem.svg" alt="Poems of Earth">
     </div>
-    <div id="spacer">&nbsp;</div>
+    <div id="content-anchor">&nbsp;</div>
     <div id="divider"></div>
     <div id="content" class="text-accent">
         <div><!-- intentionally empty (this is a part of the grid layout) --></div>
@@ -131,43 +126,43 @@ Scripture texts in this work are taken from the New American Bible © 1970 Confr
             
             <nav>
                 <ul>
-                    <li><a href="poems/autumn.html">Autumn</a></li>
-                    <li><a href="poems/before-marriage.html">Before Marriage</a></li>
-                    <li><a href="poems/bright-grace.html">Bright Grace</a></li>
-                    <li><a href="poems/child-son.html">Child, Son</a></li>
-                    <li><a href="poems/cocoa-sweat.html">Cocoa Sweat</a></li>
-                    <li><a href="poems/coyote-bones.html">Coyote Bones</a></li>
-                    <li><a href="poems/dear-sister-and-friend.html">Dear Sister, Friend</a></li>
-                    <li><a href="poems/ending.html">Ending</a></li>
-                    <li><a href="poems/esto-vir.html">Esto Vir</a></li>
-                    <li><a href="poems/fatigue-raw.html">Fatigue, Raw</a></li>
-                    <li><a href="poems/gold-resurrection.html">Gold Resurrection</a></li>
-                    <li><a href="poems/golden-embers-alive.html">Golden Embers Alive</a></li>
-                    <li><a href="poems/great-dove.html">Great Dove</a></li>
-                    <li><a href="poems/i-fear-not-loss.html">I Fear Not Loss</a></li>
-                    <li><a href="poems/kitchen-rags.html">Kitchen Rags</a></li>
-                    <li><a href="poems/moonrise-summer.html">Moonrise Summer</a></li>
-                    <li><a href="poems/owl-and-moon.html">Owl And Moon</a></li>
-                    <li><a href="poems/rise-i-hope-we-dance.html">Rise (I Hope We Dance)</a></li>
-                    <li><a href="poems/sheltered-by-snow.html">Sheltered by Snow</a></li>
-                    <li><a href="poems/silent-birds.html">Silent Birds</a></li>
-                    <li><a href="poems/snowswept.html">Snowswept</a></li>
-                    <li><a href="poems/some-times.html">Some Times</a></li>
-                    <li><a href="poems/spindle-trees.html">Spindle Trees</a></li>
-                    <li><a href="poems/sugar-lake.html">Sugar Lake</a></li>
-                    <li><a href="poems/swans-etch-heaven.html">Swans Etch Heaven</a></li>
-                    <li><a href="poems/sweat.html">Sweat</a></li>
-                    <li><a href="poems/swollen-tongue.html">Swollen Tongue</a></li>
-                    <li><a href="poems/thin-air.html">Thin Air</a></li>
-                    <li><a href="poems/tips-of-flesh.html">Tips of Flesh</a></li>
-                    <li><a href="poems/toil-without-treasure.html">Toil Without Treasure</a></li>
-                    <li><a href="poems/tonight-thunder.html">Tonight, Thunder</a></li>
-                    <li><a href="poems/twisted-tree.html">Twisted Tree</a></li>
-                    <li><a href="poems/wet-earth-go-forward.html">Wet Earth (Go Forward)</a></li>
-                    <li><a href="poems/woman-home.html">Woman (Home)</a></li>
-                    <li><a href="poems/woman-terrific-black-wings.html">Woman (Terrific Black Wings)</a></li>
-                    <li><a href="poems/woodlands.html">Woodlands</a></li>
-                    <li><a href="poems/young-woman.html">Young Woman</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/autumn.html">Autumn</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/before-marriage.html">Before Marriage</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/bright-grace.html">Bright Grace</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/child-son.html">Child, Son</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/cocoa-sweat.html">Cocoa Sweat</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/coyote-bones.html">Coyote Bones</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/dear-sister-and-friend.html">Dear Sister, Friend</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/ending.html">Ending</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/esto-vir.html">Esto Vir</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/fatigue-raw.html">Fatigue, Raw</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/gold-resurrection.html">Gold Resurrection</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/golden-embers-alive.html">Golden Embers Alive</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/great-dove.html">Great Dove</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/i-fear-not-loss.html">I Fear Not Loss</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/kitchen-rags.html">Kitchen Rags</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/moonrise-summer.html">Moonrise Summer</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/owl-and-moon.html">Owl And Moon</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/rise-i-hope-we-dance.html">Rise (I Hope We Dance)</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/sheltered-by-snow.html">Sheltered by Snow</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/silent-birds.html">Silent Birds</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/snowswept.html">Snowswept</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/some-times.html">Some Times</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/spindle-trees.html">Spindle Trees</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/sugar-lake.html">Sugar Lake</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/swans-etch-heaven.html">Swans Etch Heaven</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/sweat.html">Sweat</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/swollen-tongue.html">Swollen Tongue</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/thin-air.html">Thin Air</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/tips-of-flesh.html">Tips of Flesh</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/toil-without-treasure.html">Toil Without Treasure</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/tonight-thunder.html">Tonight, Thunder</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/twisted-tree.html">Twisted Tree</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/wet-earth-go-forward.html">Wet Earth (Go Forward)</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/woman-home.html">Woman (Home)</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/woman-terrific-black-wings.html">Woman (Terrific Black Wings)</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/woodlands.html">Woodlands</a></li>
+                    <li class="text-subtle"><a class="text-secondary" href="poems/young-woman.html">Young Woman</a></li>
                 </ul>
             </nav>
         </div>
