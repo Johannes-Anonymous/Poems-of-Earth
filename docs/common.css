@@ -119,6 +119,11 @@ h2 {
 .underline {
     text-decoration: underline;
 }
+
+.underline-subtle {
+    text-decoration: underline;
+    text-decoration-color: #D2D1C655;
+}
 /* #endregion */
 
 /* #region responsive styling */
