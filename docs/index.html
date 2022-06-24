@@ -16,6 +16,7 @@
         }
 
         #scroll-container {
+            z-index: 1;
             height: 100vh;
             width: 100vw;
 
@@ -55,24 +56,30 @@
             padding: 4rem;
         }
 
+        #overlay-top, #overlay-bottom {
+            z-index: 10;
+        }
+
         #overlay-top {
-            background: linear-gradient(#2F333F 40%, #2F333F00);
-            height: min(20vh, 18rem);
+            background: linear-gradient(#2F333F 35%, #2F333F00);
+            height: min(40vh, calc(47vh - 5rem));
 
             position: fixed;
             top: 0;
             left: 0;
-            right: 2rem;
+            /* this is so the gradient doesn't affect the color of the scroll bar */
+            right: 1rem;
         }
 
         #overlay-bottom {
-            background: linear-gradient(#2F333F00, #2F333F 60%);
-            height: min(20vh, 18rem);
+            background: linear-gradient(#2F333F00, #2F333F 70%);
+            height: min(max(30vh, 18rem), calc(47vh - 5rem));
 
             position: fixed;
             bottom: 0;
             left: 0;
-            right: 2rem;
+            /* this is so the gradient doesn't affect the color of the scroll bar */
+            right: 1rem;
         }
 
         @media (min-width: 800px) {
