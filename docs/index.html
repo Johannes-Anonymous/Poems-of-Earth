@@ -62,7 +62,7 @@
 
         #overlay-top {
             background: linear-gradient(#2F333F 35%, #2F333F00);
-            height: min(40vh, calc(47vh - 5rem));
+            height: min(40vh, calc(45vh - 5rem));
 
             position: fixed;
             top: 0;
@@ -73,7 +73,7 @@
 
         #overlay-bottom {
             background: linear-gradient(#2F333F00, #2F333F 70%);
-            height: min(max(30vh, 18rem), calc(47vh - 5rem));
+            height: min(max(30vh, 18rem), calc(45vh - 5rem));
 
             position: fixed;
             bottom: 0;
@@ -82,7 +82,14 @@
             right: 1rem;
         }
 
-        @media (min-width: 800px) {
+        @media (min-width: 725px) {
+            body {
+                font-size: 1.35rem;
+                line-height: 2.2rem;
+            }
+        }
+
+        @media (min-width: 1100px) {
             body {
                 font-size: 1.5rem;
                 line-height: 2.3rem;
