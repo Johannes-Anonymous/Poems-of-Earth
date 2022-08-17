@@ -34,11 +34,6 @@
     text-decoration: none;
 }
 
-pre {
-    all: revert;
-    margin: 0;
-}
-
 html {
     -moz-text-size-adjust: none;
     -webkit-text-size-adjust: none;
@@ -100,6 +95,12 @@ h2 {
     padding: 0.5rem 1rem;
 }
 
+.poem > p {
+    /* this creates a hanging indent when lines are broken */
+    padding-left: 0.7rem;
+    text-indent: -0.7rem;
+}
+
 .text-accent {
     color: var(--color-text-accent);
 }
@@ -138,6 +139,12 @@ h2 {
 
     .reading {
         padding: 1rem 2.3rem;
+    }
+
+    .poem > p {
+        /* this creates a hanging indent when lines are broken */
+        padding-left: 0.9rem;
+        text-indent: -0.9rem;
     }
 }
 
