@@ -57,6 +57,14 @@
             grid-template-columns: 0 1fr 0;
 
             padding-bottom: 2.5rem;
+
+            opacity: 0;
+            animation-name: slide-in-and-fade-in;
+            animation-duration: 1750ms;
+            animation-delay: 150;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
         }
 
         #footer {
@@ -96,6 +104,17 @@
                 margin-bottom: 3rem;
             }
         }
+
+        @keyframes slide-in-and-fade-in {
+            from {
+                opacity: 0;
+                transform: translateY(0.7rem);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
     </style>
 </head>
 <!--
@@ -129,7 +148,7 @@ Scripture texts in this work are taken from the New American Bible © 1970 Confr
 -->
 <body>
     <div id="emblem-container">
-        <a href="./home.html"><img id="emblem" src="./emblem.svg" alt="Poems of Earth"></a>
+        <a href="./index.html"><img id="emblem" src="./emblem.svg" alt="Poems of Earth"></a>
     </div>
     <div id="poems"><!-- this is used for scrolling the user's browser to the proper spot when returning to the homepage from a poem -->&nbsp;</div>
     <div id="divider" class="border-background-accent"></div>
