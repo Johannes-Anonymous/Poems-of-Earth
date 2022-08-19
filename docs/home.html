@@ -43,11 +43,27 @@
             max-width: 87vw;
         }
 
-        #divider {
+        #divider-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
             width: 100%;
             margin-bottom: 1.5rem;
+        }
+
+        #divider {
             border-bottom-style: solid;
             border-bottom-width: 2px;
+
+            opacity: 0;
+            width: 30%;
+            animation-name: fade-in-and-expand-width;
+            animation-duration: 2000ms;
+            animation-delay: 150ms;
+            animation-timing-function: ease-out;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
         }
 
         #content {
@@ -61,7 +77,7 @@
             opacity: 0;
             animation-name: slide-in-and-fade-in;
             animation-duration: 1750ms;
-            animation-delay: 150;
+            animation-delay: 150ms;
             animation-timing-function: ease;
             animation-iteration-count: 1;
             animation-fill-mode: forwards;
@@ -99,9 +115,24 @@
                 grid-template-columns: minmax(5rem, 1fr) minmax(20rem, 40rem) minmax(5rem, 1fr);
             }
 
-            #divider {
+            #divider-container {
                 width: 80%;
                 margin-bottom: 3rem;
+            }
+
+            #divider {
+                width: 50%;
+                animation-name: fade-in-and-expand-width-medium;
+            }
+        }
+
+        @media (min-width: 1100px) {
+            #divider {
+                width: 70%;
+
+                animation-name: fade-in-and-expand-width-large;
+                animation-duration: 4000ms;
+                animation-timing-function: cubic-bezier(0.34, 0.7, 0.33, 1);
             }
         }
 
@@ -113,6 +144,39 @@
             to {
                 opacity: 1;
                 transform: translateY(0);
+            }
+        }
+
+        @keyframes fade-in-and-expand-width {
+            from {
+                opacity: 0;
+                width: 30%;
+            }
+            to {
+                opacity: 1;
+                width: 100%;
+            }
+        }
+
+        @keyframes fade-in-and-expand-width-medium {
+            from {
+                opacity: 0;
+                width: 50%;
+            }
+            to {
+                opacity: 1;
+                width: 100%;
+            }
+        }
+
+        @keyframes fade-in-and-expand-width-large {
+            from {
+                opacity: 0;
+                width: 70%;
+            }
+            to {
+                opacity: 1;
+                width: 100%;
             }
         }
     </style>
@@ -151,7 +215,9 @@ Scripture texts in this work are taken from the New American Bible © 1970 Confr
         <a href="./index.html"><img id="emblem" src="./emblem.svg" alt="Poems of Earth"></a>
     </div>
     <div id="poems"><!-- this is used for scrolling the user's browser to the proper spot when returning to the homepage from a poem -->&nbsp;</div>
-    <div id="divider" class="border-background-accent"></div>
+    <div id="divider-container">
+        <div id="divider" class="border-background-accent">&nbsp;</div>
+    </div>
     <div id="content">
         <div><!-- intentionally empty (this is a part of the grid layout) --></div>
         <div>
