@@ -774,7 +774,7 @@
         }
     
 
-        #emblem-tree-leaf-21 {
+        #emblem-tree-leaf-25 {
             opacity: 0;
 
             animation-name: fade-in;
@@ -786,7 +786,7 @@
         }
     
 
-        #emblem-tree-leaf-22 {
+        #emblem-tree-leaf-26 {
             opacity: 0;
 
             animation-name: fade-in;
@@ -798,7 +798,7 @@
         }
     
 
-        #emblem-tree-leaf-23 {
+        #emblem-tree-leaf-27 {
             opacity: 0;
 
             animation-name: fade-in;
@@ -810,7 +810,7 @@
         }
     
 
-        #emblem-tree-leaf-24 {
+        #emblem-tree-leaf-28 {
             opacity: 0;
 
             animation-name: fade-in;
@@ -822,7 +822,7 @@
         }
     
 
-        #emblem-tree-leaf-25 {
+        #emblem-tree-leaf-24 {
             opacity: 0;
 
             animation-name: fade-in;
@@ -834,7 +834,7 @@
         }
     
 
-        #emblem-tree-leaf-26 {
+        #emblem-tree-leaf-22 {
             opacity: 0;
 
             animation-name: fade-in;
@@ -846,7 +846,7 @@
         }
     
 
-        #emblem-tree-leaf-27 {
+        #emblem-tree-leaf-21 {
             opacity: 0;
 
             animation-name: fade-in;
@@ -858,7 +858,7 @@
         }
     
 
-        #emblem-tree-leaf-28 {
+        #emblem-tree-leaf-23 {
             opacity: 0;
 
             animation-name: fade-in;
@@ -1071,7 +1071,7 @@
 
             animation-name: fade-in, translate-0-7rem;
             animation-duration: 8500ms, 5500ms;
-            animation-delay: 11250ms, 11000ms;
+            animation-delay: 11700ms, 12100ms;
             animation-timing-function: ease, ease-out;
             animation-iteration-count: 1;
             animation-fill-mode: forwards;
