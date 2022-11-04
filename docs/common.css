@@ -7,6 +7,7 @@
     --color-background-secondary: #282B37;
 
     --color-text-primary: #D2D1C6;
+    --color-text-primary-dimmed: #D2D1C667;
     --color-text-secondary: #E1CB8F;
     --color-text-secondary-strong: #D7C287;
     --color-text-accent: #89867D;
@@ -108,6 +109,10 @@ h2 {
 
 .text-accent {
     color: var(--color-text-accent);
+}
+
+.text-primary-dimmed {
+    color: var(--color-text-primary-dimmed);
 }
 
 .text-secondary {
