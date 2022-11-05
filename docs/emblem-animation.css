@@ -1071,7 +1071,7 @@
 
             animation-name: fade-in, translate-0-7rem;
             animation-duration: 8500ms, 5500ms;
-            animation-delay: 11700ms, 12100ms;
+            animation-delay: 12000ms, 12400ms;
             animation-timing-function: ease, ease-out;
             animation-iteration-count: 1;
             animation-fill-mode: forwards;
