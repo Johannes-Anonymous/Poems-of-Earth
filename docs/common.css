@@ -2,7 +2,10 @@
 :root {
     --color-accent: #9CB0D9;
 
+    /* These two colors must be kept in-sync with those in `emblem-animation.ts` */
+    --color-emblem: #F0CC69;
     --color-background: #2F333F;
+
     --color-background-accent: #676767;
     --color-background-secondary: #282B37;
 
@@ -84,6 +87,19 @@ h2 {
     border-color: var(--color-background-accent);
 }
 
+.fill-background {
+    fill: var(--color-background);
+}
+
+.fill-emblem {
+    fill: var(--color-emblem);
+}
+
+.fill-white {
+    fill: #FFF;
+}
+
+
 .font-sans-serif {
     font-family: "sans serif";
 }
@@ -105,6 +121,14 @@ h2 {
     /* this creates a hanging indent when lines are broken */
     padding-left: 0.7rem;
     text-indent: -0.7rem;
+}
+
+.stroke-emblem {
+    stroke: var(--color-emblem);
+}
+
+.stroke-width-title {
+    stroke-width: 17;
 }
 
 .text-accent {

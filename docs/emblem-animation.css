@@ -1,1093 +1,1511 @@
-
-        
-        #emblem {
-            transform: scale(0.9);
-
-            animation-name: scale-1;
-            animation-duration: 30000ms;
-            animation-delay: 0ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards
-        }
-
-        @keyframes scale-1 {
-            from { transform: scale(0.9); }
-            to   { transform: scale(1); }
-        }
-    
-
-        
-        
-        #emblem-furrow-1 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3000ms;
-            animation-delay: 10000ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-furrow-2 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3000ms;
-            animation-delay: 10350ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-furrow-3 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3000ms;
-            animation-delay: 10700ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-furrow-4 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3000ms;
-            animation-delay: 11050ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-furrow-5 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3000ms;
-            animation-delay: 11400ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-furrow-6 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3000ms;
-            animation-delay: 11750ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-furrow-7 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3000ms;
-            animation-delay: 12100ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-furrow-8 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3000ms;
-            animation-delay: 12450ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-furrow-9 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3000ms;
-            animation-delay: 12800ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-furrow-10 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3000ms;
-            animation-delay: 13150ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-furrow-11 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3000ms;
-            animation-delay: 13500ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-    
-        
-        
-        #emblem-grain-left-1 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 7000ms;
-            animation-delay: 1200ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-grain-left-2 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 7000ms;
-            animation-delay: 1900ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-grain-left-3 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 7000ms;
-            animation-delay: 2600ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-grain-left-4 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 7000ms;
-            animation-delay: 3300ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-grain-left-5 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 7000ms;
-            animation-delay: 4000ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-grain-left-6 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 7000ms;
-            animation-delay: 4700ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-grain-left-7 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 7000ms;
-            animation-delay: 5400ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-grain-left-8 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 7000ms;
-            animation-delay: 6100ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        
-        #emblem-grain-right-2 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 7000ms;
-            animation-delay: 1550ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-grain-right-3 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 7000ms;
-            animation-delay: 2250ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-grain-right-4 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 7000ms;
-            animation-delay: 2950ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-grain-right-5 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 7000ms;
-            animation-delay: 3650ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-grain-right-6 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 7000ms;
-            animation-delay: 4350ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-grain-right-7 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 7000ms;
-            animation-delay: 5050ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-grain-right-8 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 7000ms;
-            animation-delay: 5750ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-grain-right-9 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 7000ms;
-            animation-delay: 6450ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        
-        #emblem-grain-point {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 7000ms;
-            animation-delay: 7150ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-    
-        
-        #emblem-moon {
-            opacity: 0;
-            translate: 0 12vh;
-
-            animation-name: fade-in, translate-0-12vh;
-            animation-duration: 23000ms, 14000ms;
-            animation-delay: 5000ms, 5000ms;
-            animation-timing-function: ease, ease-out;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-
-        @keyframes translate-0-12vh {
-            from { translate: 0 12vh; }
-            to   { translate: 0 0; }
-        }
-    
-        
-        
-        #emblem-mountain-left {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 10000ms;
-            animation-delay: 7800ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-mountain-right {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 10000ms;
-            animation-delay: 8500ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-    
-        
-        #emblem-ring-top {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 8000ms;
-            animation-delay: 8500ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        
-        #emblem-river-stream {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 13000ms;
-            animation-delay: 250ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-river-highlight-top {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 7000ms;
-            animation-delay: 1950ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-river-highlight-middle {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 7000ms;
-            animation-delay: 3750ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-river-highlight-bottom {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 7000ms;
-            animation-delay: 5250ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-    
-        
-        
-        #emblem-star-top {
-            opacity: 0;
-            translate: 0 3vh;
-
-            animation-name: fade-in, translate-0-3vh;
-            animation-duration: 3000ms, 4500ms;
-            animation-delay: 12800ms, 12800ms;
-            animation-timing-function: ease, ease-out;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-
-        @keyframes translate-0-3vh {
-            from { translate: 0 3vh; }
-            to   { translate: 0 0; }
-        }
-    
-        
-        #emblem-star-middle {
-            opacity: 0;
-            translate: 0 4vh;
-
-            animation-name: fade-in, translate-0-4vh;
-            animation-duration: 3000ms, 4500ms;
-            animation-delay: 11400ms, 11400ms;
-            animation-timing-function: ease, ease-out;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-
-        @keyframes translate-0-4vh {
-            from { translate: 0 4vh; }
-            to   { translate: 0 0; }
-        }
-    
-        
-        #emblem-star-bottom {
-            opacity: 0;
-            translate: 0 7vh;
-
-            animation-name: fade-in, translate-0-7vh;
-            animation-duration: 3000ms, 4500ms;
-            animation-delay: 10000ms, 10000ms;
-            animation-timing-function: ease, ease-out;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-
-        @keyframes translate-0-7vh {
-            from { translate: 0 7vh; }
-            to   { translate: 0 0; }
-        }
-    
-    
-        
-        #emblem-tree-and–ring-and-grain {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 12000ms;
-            animation-delay: 1440ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-tree-leaf-1 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 2000ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-2 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 2200ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-3 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 2400ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-4 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 2600ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-5 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 2800ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-6 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 3000ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-7 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 3200ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-8 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 3400ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-9 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 3600ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-10 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 3800ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-11 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 4000ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-12 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 4200ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-13 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 4400ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-14 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 4600ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-15 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 4800ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-16 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 5000ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-17 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 5200ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-18 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 5400ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-19 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 5600ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-20 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 5800ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-25 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 6000ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-26 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 6200ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-27 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 6400ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-28 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 6600ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-24 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 6800ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-22 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 7000ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-21 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 7200ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-23 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 7400ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-29 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 7600ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-30 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 7800ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-31 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 8000ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-32 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 8200ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-33 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 8400ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-34 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 8600ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-35 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 8800ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-36 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 9000ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        #emblem-tree-leaf-37 {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 3500ms;
-            animation-delay: 9200ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        
-        #emblem-title-poems-p {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 4500ms;
-            animation-delay: 9000ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-title-poems-o {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 4500ms;
-            animation-delay: 9400ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-title-poems-e {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 4500ms;
-            animation-delay: 9800ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-title-poems-m {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 4500ms;
-            animation-delay: 10200ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-title-poems-s {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 4500ms;
-            animation-delay: 10600ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        
-        #emblem-title-of-o {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 4500ms;
-            animation-delay: 11000ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-        
-        #emblem-title-of-f {
-            opacity: 0;
-
-            animation-name: fade-in;
-            animation-duration: 4500ms;
-            animation-delay: 11400ms;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-    
-
-        
-        #emblem-title-earth {
-            opacity: 0;
-            translate: 0 7rem;
-
-            animation-name: fade-in, translate-0-7rem;
-            animation-duration: 8500ms, 5500ms;
-            animation-delay: 12000ms, 12400ms;
-            animation-timing-function: ease, ease-out;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
-        }
-
-        @keyframes translate-0-7rem {
-            from { translate: 0 7rem; }
-            to   { translate: 0 0; }
-        }
-    
-    
-
-        
-        @keyframes fade-in {
-            from { opacity: 0; }
-            to   { opacity: 1; }
-        }
-    
-    
+/* This is the default CSS, intended solely for browsers that do not support the complex animation */
+#emblem-ring-fill-top {
+    stroke: #F0CC69;
+    stroke-width: 25;
+}
+
+#emblem-ring-fill-bottom {
+    stroke: #F0CC69;
+    stroke-width: 200px;
+}
+
+#emblem-river-fill {
+    stroke: #F0CC69;
+    stroke-width: 220px;
+}
+
+#emblem-tree-trunk-fill,
+#emblem-tree-trunk-1-fill,
+#emblem-tree-branch-1-fill,
+#emblem-tree-branch-1-1-fill,
+#emblem-tree-branch-1-1-1-fill,
+#emblem-tree-branch-2-fill,
+#emblem-tree-branch-2-1-fill,
+#emblem-tree-branch-3-fill,
+#emblem-tree-branch-3-1-fill,
+#emblem-tree-branch-3-2-fill,
+#emblem-tree-branch-3-2-1-fill,
+#emblem-tree-branch-3-2-1-1-fill,
+#emblem-tree-branch-3-2-2-fill,
+#emblem-tree-branch-4-fill,
+#emblem-tree-branch-4-1-fill,
+#emblem-tree-branch-4-2-fill,
+#emblem-tree-branch-4-3-fill {
+    stroke: #F0CC69;
+    stroke-width: 210;
+}
+
+#emblem-tree-cover-2-over-3-fill,
+#emblem-tree-cover-trunk-over-4-fill {
+    stroke: #2F333F;
+    stroke-width: 70;
+}
+
+
+#emblem {
+    opacity: 0;
+    transform: scale(0.7);
+
+    animation-name: emblem-simple-fade-and-scale;
+    animation-duration: 13000ms;
+    animation-delay: 300ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes emblem-simple-fade-and-scale {
+    from { opacity: 0; transform: scale(0.7); }
+    to   { opacity: 1; transform: scale(1); }
+}
+
+
+/* This CSS is for browsers that can handle the complex animation */
+@media (update: fast) {
+    
+#emblem {
+    opacity: 0.9;
+    transform: scale(0.7);
+
+    animation-name: emblem-fade, emblem-scale;
+    animation-duration: 5000ms, 30000ms;
+    animation-delay: 19000ms, 0ms;
+    animation-timing-function: ease-in-out, ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes emblem-fade {
+    from { opacity: 0.9; }
+    to   { opacity: 1; }
+}
+
+@keyframes emblem-scale {
+    from { transform: scale(0.7); }
+    to   { transform: scale(1); }
+}
+
+
+    #emblem-furrow-1 {
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 3000ms;
+    animation-delay: 15500ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-furrow-2 {
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 3000ms;
+    animation-delay: 15850ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-furrow-3 {
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 3000ms;
+    animation-delay: 16200ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-furrow-4 {
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 3000ms;
+    animation-delay: 16550ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-furrow-5 {
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 3000ms;
+    animation-delay: 16900ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-furrow-6 {
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 3000ms;
+    animation-delay: 17250ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-furrow-7 {
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 3000ms;
+    animation-delay: 17600ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-furrow-8 {
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 3000ms;
+    animation-delay: 17950ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-furrow-9 {
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 3000ms;
+    animation-delay: 18300ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-furrow-10 {
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 3000ms;
+    animation-delay: 18650ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-furrow-11 {
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 3000ms;
+    animation-delay: 19000ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+    #emblem-grain-left-2 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 9000ms;
+    animation-delay: 7050ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-grain-left-3 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 9000ms;
+    animation-delay: 7750ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-grain-left-4 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 9000ms;
+    animation-delay: 8450ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-grain-left-5 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 9000ms;
+    animation-delay: 9150ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-grain-left-6 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 9000ms;
+    animation-delay: 9850ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-grain-left-7 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 9000ms;
+    animation-delay: 10550ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-grain-left-8 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 9000ms;
+    animation-delay: 11250ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+#emblem-grain-right-2 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 9000ms;
+    animation-delay: 6700ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-grain-right-3 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 9000ms;
+    animation-delay: 7400ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-grain-right-4 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 9000ms;
+    animation-delay: 8100ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-grain-right-5 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 9000ms;
+    animation-delay: 8800ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-grain-right-6 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 9000ms;
+    animation-delay: 9500ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-grain-right-7 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 9000ms;
+    animation-delay: 10200ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-grain-right-8 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 9000ms;
+    animation-delay: 10900ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-grain-right-9 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 9000ms;
+    animation-delay: 11600ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+#emblem-grain-point {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 9000ms;
+    animation-delay: 12300ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+    #emblem-moon {
+    opacity: 0;
+    translate: 0 12vh;
+
+    animation-name: fade-in, translate-0-12vh;
+    animation-duration: 12500ms, 14000ms;
+    animation-delay: 10500ms, 10500ms;
+    animation-timing-function: ease, ease-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes translate-0-12vh {
+    from { translate: 0 12vh; }
+    to   { translate: 0 0; }
+}
+
+    #emblem-mountain-left {
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 14000ms;
+    animation-delay: 13000ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-mountain-right {
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 14000ms;
+    animation-delay: 13900ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+    #emblem-ring-fill-top {
+    fill: none;
+    opacity: 0;
+    stroke: #F0CC69;
+    stroke-width: 25;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+
+    animation-name: ring-fill-top, ring-fade-top;
+    animation-duration: 20000ms, 9000ms;
+    animation-delay: 10000ms, 12500ms;
+    animation-timing-function: ease-out, ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-ring-fill-bottom {
+    fill: none;
+    stroke: #F0CC69;
+    stroke-width: 25;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+
+    animation-name: ring-fill-bottom, ring-fade-bottom;
+    animation-duration: 10000ms, 15000ms;
+    animation-delay: 2500ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ring-fill-top {
+    from { stroke-dashoffset: 40; }
+    to   { stroke-dashoffset: 0;   }
+}
+
+@keyframes ring-fade-top {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes ring-fill-bottom {
+    from { stroke-width: 25px;  stroke-dashoffset: 100; }
+    38%  { stroke-width: 25px;  stroke-dashoffset: 62;  }
+    44%  { stroke-width: 200px; stroke-dashoffset: 56;  }
+    to   { stroke-width: 200px; stroke-dashoffset: 0;   }
+}
+
+@keyframes ring-fade-bottom {
+    from { opacity: 0.13; }
+    30%  { opacity: 0.5;  }
+    to   { opacity: 1;    }
+}
+
+    #emblem-river-highlight-top {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 4000ms;
+    animation-delay: 3300ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-river-highlight-middle {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 7000ms;
+    animation-delay: 4600ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-river-highlight-bottom {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 8000ms;
+    animation-delay: 5300ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+#emblem-river-fill {
+    fill: none;
+    opacity: 0.13;
+    stroke: #F0CC69;
+    stroke-width: 0;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+
+    animation-name: river-fill, river-fade;
+    animation-duration: 7700ms, 15000ms;
+    animation-delay: 100ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes river-fill {
+    from { stroke-width: 0;     stroke-dashoffset: 100; }
+    13%  { stroke-width: 60px;  stroke-dashoffset: 87;  }
+    40%  { stroke-width: 70px;  stroke-dashoffset: 60;  }
+    50%  { stroke-width: 190px; stroke-dashoffset: 50;  }
+    60%  { stroke-width: 220px; stroke-dashoffset: 40;  }
+    70%  { stroke-width: 220px; stroke-dashoffset: 30;  }
+    to   { stroke-width: 220px; stroke-dashoffset: 0;   }
+}
+
+@keyframes river-fade {
+    from { opacity: 0.13; }
+    70%  { opacity: 0.5;  }
+    to   { opacity: 1;    }
+}
+
+    #emblem-star-top {
+    opacity: 0;
+    translate: 0 3vh;
+
+    animation-name: fade-in, translate-0-3vh;
+    animation-duration: 7000ms, 4500ms;
+    animation-delay: 15800ms, 15800ms;
+    animation-timing-function: ease-in-out, ease-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes translate-0-3vh {
+    from { translate: 0 3vh; }
+    to   { translate: 0 0; }
+}
+
+#emblem-star-middle {
+    opacity: 0;
+    translate: 0 4vh;
+
+    animation-name: fade-in, translate-0-4vh;
+    animation-duration: 7000ms, 4500ms;
+    animation-delay: 14400ms, 14400ms;
+    animation-timing-function: ease-in-out, ease-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes translate-0-4vh {
+    from { translate: 0 4vh; }
+    to   { translate: 0 0; }
+}
+
+#emblem-star-bottom {
+    opacity: 0;
+    translate: 0 7vh;
+
+    animation-name: fade-in, translate-0-7vh;
+    animation-duration: 7000ms, 4500ms;
+    animation-delay: 13000ms, 13000ms;
+    animation-timing-function: ease-in-out, ease-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes translate-0-7vh {
+    from { translate: 0 7vh; }
+    to   { translate: 0 0; }
+}
+
+    
+    #emblem-tree-trunk-fill {
+    fill: none;
+    opacity: 0;
+    stroke: #2F333F;
+    stroke-width: 210;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+
+    animation-name: tree-trunk-fade, stroke-fill-reverse, tree-trunk-color;
+    animation-duration: 2000ms, 12000ms, 12000ms;
+    animation-delay: 5200ms, 1800ms, 1800ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes tree-trunk-fade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes tree-trunk-color {
+    from { stroke: #2F333F; }
+    to   { stroke: #F0CC69; }
+}
+#emblem-tree-trunk-1-fill {
+    fill: none;
+    stroke: #2F333F;
+    stroke-width: 30;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+
+    animation-name: stroke-fill, color-fade-emblem-tree-trunk-1-fill;
+    animation-duration: 2000ms, 6000ms;
+    animation-delay: 10800ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-fade-emblem-tree-trunk-1-fill {
+    from { stroke: #2F333F; }
+    to   { stroke: #F0CC69;    }
+}
+#emblem-tree-branch-1-fill {
+    fill: none;
+    stroke: #2F333F;
+    stroke-width: 100;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+
+    animation-name: stroke-fill, color-fade-emblem-tree-branch-1-fill;
+    animation-duration: 8000ms, 7400ms;
+    animation-delay: 5400ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-fade-emblem-tree-branch-1-fill {
+    from { stroke: #2F333F; }
+    to   { stroke: #F0CC69;    }
+}
+#emblem-tree-branch-1-1-fill {
+    fill: none;
+    stroke: #2F333F;
+    stroke-width: 30;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+
+    animation-name: stroke-fill, color-fade-emblem-tree-branch-1-1-fill;
+    animation-duration: 3000ms, 6000ms;
+    animation-delay: 9800ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-fade-emblem-tree-branch-1-1-fill {
+    from { stroke: #2F333F; }
+    to   { stroke: #F0CC69;    }
+}
+#emblem-tree-branch-1-1-1-fill {
+    fill: none;
+    stroke: #2F333F;
+    stroke-width: 20;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+
+    animation-name: stroke-fill, color-fade-emblem-tree-branch-1-1-1-fill;
+    animation-duration: 3000ms, 6000ms;
+    animation-delay: 11200ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-fade-emblem-tree-branch-1-1-1-fill {
+    from { stroke: #2F333F; }
+    to   { stroke: #F0CC69;    }
+}
+#emblem-tree-branch-2-fill {
+    fill: none;
+    stroke: #2F333F;
+    stroke-width: 100;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+
+    animation-name: stroke-fill, color-fade-emblem-tree-branch-2-fill;
+    animation-duration: 9000ms, 6000ms;
+    animation-delay: 7350ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-fade-emblem-tree-branch-2-fill {
+    from { stroke: #2F333F; }
+    to   { stroke: #F0CC69;    }
+}
+#emblem-tree-branch-2-1-fill {
+    fill: none;
+    stroke: #2F333F;
+    stroke-width: 40;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+
+    animation-name: stroke-fill, color-fade-emblem-tree-branch-2-1-fill;
+    animation-duration: 4000ms, 6000ms;
+    animation-delay: 10200ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-fade-emblem-tree-branch-2-1-fill {
+    from { stroke: #2F333F; }
+    to   { stroke: #F0CC69;    }
+}
+#emblem-tree-branch-3-fill {
+    fill: none;
+    stroke: #2F333F;
+    stroke-width: 75;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+
+    animation-name: stroke-fill, color-fade-emblem-tree-branch-3-fill;
+    animation-duration: 7500ms, 6000ms;
+    animation-delay: 8600ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-fade-emblem-tree-branch-3-fill {
+    from { stroke: #2F333F; }
+    to   { stroke: #F0CC69;    }
+}
+#emblem-tree-branch-3-1-fill {
+    fill: none;
+    stroke: #2F333F;
+    stroke-width: 20;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+
+    animation-name: stroke-fill, color-fade-emblem-tree-branch-3-1-fill;
+    animation-duration: 2000ms, 6000ms;
+    animation-delay: 9600ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-fade-emblem-tree-branch-3-1-fill {
+    from { stroke: #2F333F; }
+    to   { stroke: #F0CC69;    }
+}
+#emblem-tree-branch-3-2-fill {
+    fill: none;
+    stroke: #2F333F;
+    stroke-width: 50;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+
+    animation-name: stroke-fill, color-fade-emblem-tree-branch-3-2-fill;
+    animation-duration: 3000ms, 6000ms;
+    animation-delay: 10800ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-fade-emblem-tree-branch-3-2-fill {
+    from { stroke: #2F333F; }
+    to   { stroke: #F0CC69;    }
+}
+#emblem-tree-branch-3-2-1-fill {
+    fill: none;
+    stroke: #2F333F;
+    stroke-width: 30;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+
+    animation-name: stroke-fill, color-fade-emblem-tree-branch-3-2-1-fill;
+    animation-duration: 2000ms, 6000ms;
+    animation-delay: 11600ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-fade-emblem-tree-branch-3-2-1-fill {
+    from { stroke: #2F333F; }
+    to   { stroke: #F0CC69;    }
+}
+#emblem-tree-branch-3-2-1-1-fill {
+    fill: none;
+    stroke: #2F333F;
+    stroke-width: 15;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+
+    animation-name: stroke-fill, color-fade-emblem-tree-branch-3-2-1-1-fill;
+    animation-duration: 2000ms, 6000ms;
+    animation-delay: 12400ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-fade-emblem-tree-branch-3-2-1-1-fill {
+    from { stroke: #2F333F; }
+    to   { stroke: #F0CC69;    }
+}
+#emblem-tree-branch-3-2-2-fill {
+    fill: none;
+    stroke: #2F333F;
+    stroke-width: 25;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+
+    animation-name: stroke-fill, color-fade-emblem-tree-branch-3-2-2-fill;
+    animation-duration: 2000ms, 6000ms;
+    animation-delay: 12600ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-fade-emblem-tree-branch-3-2-2-fill {
+    from { stroke: #2F333F; }
+    to   { stroke: #F0CC69;    }
+}
+#emblem-tree-branch-4-fill {
+    fill: none;
+    stroke: #2F333F;
+    stroke-width: 50;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+
+    animation-name: stroke-fill, color-fade-emblem-tree-branch-4-fill;
+    animation-duration: 5000ms, 6000ms;
+    animation-delay: 9800ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-fade-emblem-tree-branch-4-fill {
+    from { stroke: #2F333F; }
+    to   { stroke: #F0CC69;    }
+}
+#emblem-tree-branch-4-1-fill {
+    fill: none;
+    stroke: #2F333F;
+    stroke-width: 30;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+
+    animation-name: stroke-fill, color-fade-emblem-tree-branch-4-1-fill;
+    animation-duration: 2000ms, 6000ms;
+    animation-delay: 11200ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-fade-emblem-tree-branch-4-1-fill {
+    from { stroke: #2F333F; }
+    to   { stroke: #F0CC69;    }
+}
+#emblem-tree-branch-4-2-fill {
+    fill: none;
+    stroke: #2F333F;
+    stroke-width: 20;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+
+    animation-name: stroke-fill, color-fade-emblem-tree-branch-4-2-fill;
+    animation-duration: 1400ms, 4000ms;
+    animation-delay: 13100ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-fade-emblem-tree-branch-4-2-fill {
+    from { stroke: #2F333F; }
+    to   { stroke: #F0CC69;    }
+}
+#emblem-tree-branch-4-3-fill {
+    fill: none;
+    stroke: #2F333F;
+    stroke-width: 20;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+
+    animation-name: stroke-fill, color-fade-emblem-tree-branch-4-3-fill;
+    animation-duration: 2000ms, 400ms;
+    animation-delay: 13200ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-fade-emblem-tree-branch-4-3-fill {
+    from { stroke: #2F333F; }
+    to   { stroke: #F0CC69;    }
+}
+#emblem-tree-cover-2-over-3-fill {
+    fill: none;
+    stroke: #2F333F;
+    stroke-width: 90;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+
+    animation-name: stroke-fill;
+    animation-duration: 9000ms;
+    animation-delay: 7350ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+#emblem-tree-cover-trunk-over-4-fill {
+    fill: none;
+    stroke: #2F333F;
+    stroke-width: 70;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+
+    animation-name: stroke-fill;
+    animation-duration: 12000ms;
+    animation-delay: 1800ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-1 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 10200ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-2 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 10750ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-3 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 11600ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-4 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 12150ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-5 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 12700ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-6 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 11300ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-7 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 11850ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-8 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 12500ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-9 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 13000ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-10 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 13550ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-12 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 11200ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-11 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 11750ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-13 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 12700ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-25 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 12400ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-27 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 12600ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-28 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 13150ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-26 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 13100ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-24 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 13300ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-22 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 13850ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-21 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 14400ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-23 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 14950ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-14 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 13500ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-15 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 14050ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-31 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 13850ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-32 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 14400ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-16 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 14300ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-17 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 14850ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-33 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 14300ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-34 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 14600ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-35 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 15150ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-19 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 14800ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-18 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 15350ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-29 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 14800ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-30 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 15350ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-20 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 15100ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-36 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 15600ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-tree-leaf-37 {
+    opacity: 0;
+
+    animation-name: fade-in-long;
+    animation-duration: 3500ms;
+    animation-delay: 16300ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+    
+    #emblem-title-poems-p {
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 4500ms;
+    animation-delay: 14000ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-title-poems-o {
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 4500ms;
+    animation-delay: 14400ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-title-poems-e {
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 4500ms;
+    animation-delay: 14800ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-title-poems-m {
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 4500ms;
+    animation-delay: 15200ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-title-poems-s {
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 4500ms;
+    animation-delay: 15600ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+#emblem-title-of-o {
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 4500ms;
+    animation-delay: 16400ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#emblem-title-of-f {
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 4500ms;
+    animation-delay: 16800ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+#emblem-title-earth {
+    opacity: 0;
+    translate: 0 7rem;
+
+    animation-name: fade-in, translate-0-7rem;
+    animation-duration: 8500ms, 5500ms;
+    animation-delay: 17250ms, 17000ms;
+    animation-timing-function: ease, ease-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes translate-0-7rem {
+    from { translate: 0 7rem; }
+    to   { translate: 0 0; }
+}
+
+
+
+    @keyframes fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fade-in-long {
+    from { opacity: 0;    }
+    80%  { opacity: 0.7;  }
+    90%  { opacity: 0.85; }
+    to   { opacity: 1;    }
+}
+
+@keyframes stroke-fill {
+    from { stroke-dashoffset: 100; }
+    to   { stroke-dashoffset: 0; }
+}
+
+@keyframes stroke-fill-reverse {
+    from { stroke-dashoffset: -100; }
+    to   { stroke-dashoffset: 0; }
+}
+
+}

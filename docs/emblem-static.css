@@ -1,0 +1,41 @@
+#emblem-ring-fill-top {
+    stroke: #F0CC69;
+    stroke-width: 25;
+}
+
+#emblem-ring-fill-bottom {
+    stroke: #F0CC69;
+    stroke-width: 200px;
+}
+
+#emblem-river-fill {
+    stroke: #F0CC69;
+    stroke-width: 220px;
+}
+
+#emblem-tree-trunk-fill,
+#emblem-tree-trunk-1-fill,
+#emblem-tree-branch-1-fill,
+#emblem-tree-branch-1-1-fill,
+#emblem-tree-branch-1-1-1-fill,
+#emblem-tree-branch-2-fill,
+#emblem-tree-branch-2-1-fill,
+#emblem-tree-branch-3-fill,
+#emblem-tree-branch-3-1-fill,
+#emblem-tree-branch-3-2-fill,
+#emblem-tree-branch-3-2-1-fill,
+#emblem-tree-branch-3-2-1-1-fill,
+#emblem-tree-branch-3-2-2-fill,
+#emblem-tree-branch-4-fill,
+#emblem-tree-branch-4-1-fill,
+#emblem-tree-branch-4-2-fill,
+#emblem-tree-branch-4-3-fill {
+    stroke: #F0CC69;
+    stroke-width: 210;
+}
+
+#emblem-tree-cover-2-over-3-fill,
+#emblem-tree-cover-trunk-over-4-fill {
+    stroke: #2F333F;
+    stroke-width: 70;
+}
